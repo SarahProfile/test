@@ -1,0 +1,65 @@
+
+
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+p {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #F86338;
+  border: white;
+  border-radius: 10 !important;
+  cursor: pointer;
+}
+
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .swiper-slide {
+    width: 80%;
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    width: 60%;
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    width: 40%;
+  }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+   
+    display: none;
+}
+  
